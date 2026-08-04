@@ -1,3 +1,8 @@
+import config
+
+def say_hello(name):
+    print(f"Hello, {name}from{comfig.APP_NAME}!")
+
 def say_hello(name):
     print(f"Hello,{name}!")
 
@@ -7,3 +12,4 @@ def greet_user():
 
 if __name__ == "__main__" :
     greet_user()
+    
